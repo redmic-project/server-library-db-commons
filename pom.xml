@@ -13,7 +13,7 @@
 	<groupId>es.redmic.lib</groupId>
 	<artifactId>db-commons</artifactId>
 	<packaging>jar</packaging>
-	<version>0.6.0</version>
+	<version>0.6.0-feature-updateCI</version>
 	<name>DB Commons</name>
 	<description>Database common JPA management</description>
 
@@ -34,9 +34,6 @@
 		<jacoco.version>0.8.1</jacoco.version>
 		<com.mysema.maven.version>1.1.3</com.mysema.maven.version>
 		<com.mysema.querydsl.version>4.1.4</com.mysema.querydsl.version>
-		
-		<!-- Environment variables -->
-		<env.MAVEN_REPO_URL>https://artifactory.redmic.net/artifactory</env.MAVEN_REPO_URL>
 	</properties>
 
 	<dependencies>
@@ -102,19 +99,6 @@
 			<version>${ma.glasnost.orika.core}</version>
 		</dependency>
 	</dependencies>
-	<distributionManagement>
-		<repository>
-			<id>central</id>
-			<name>redmic-releases</name>
-			<url>${env.MAVEN_REPO_URL}/libs-release-local</url>
-		</repository>
-		<snapshotRepository>
-			<id>snapshots</id>
-			<name>redmic-snapshots</name>
-			<url>${env.MAVEN_REPO_URL}/libs-snapshot-local</url>
-			<uniqueVersion>false</uniqueVersion>
-		</snapshotRepository>
-	</distributionManagement>
 	<build>
 		<plugins>
 			<plugin>
