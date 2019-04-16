@@ -14,7 +14,7 @@
 	<groupId>es.redmic.lib</groupId>
 	<artifactId>db-commons</artifactId>
 	<packaging>jar</packaging>
-	<version>0.6.0-feature-updateCI</version>
+	<version>0.7.0</version>
 	<name>DB Commons</name>
 	<description>Database common JPA management</description>
 
