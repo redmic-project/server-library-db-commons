@@ -20,7 +20,7 @@
 
 	<properties>
 		<!-- OTHERS -->
-		<oauth.version>2.3.0.RELEASE</oauth.version>
+		<oauth.version>2.3.5.RELEASE</oauth.version>
 		<hibernate-validator.version>6.0.8.Final</hibernate-validator.version>
 		<org.jadira.usertype.version>7.0.0.CR1</org.jadira.usertype.version>
 		<ma.glasnost.orika.core>1.4.6</ma.glasnost.orika.core>
